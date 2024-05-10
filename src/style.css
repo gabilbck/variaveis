@@ -8,12 +8,13 @@
 /* HEADER */
 
 header {
-    background-color:rgb(37, 51, 51);
+    background-color:#042326;
 }
 
 nav {
     margin: auto;
-    background-color: rgb(37, 51, 51);
+    /* background-color: rgb(37, 51, 51); */
+    background-color: #042326;
     max-width: 1000px;
     line-height: 50px;
     color: white;
@@ -41,13 +42,13 @@ nav a:hover {
     color: white;
     cursor: pointer;
     padding: 0 5px 0 5px;
-    background-color: rgb(99, 97, 97);
+    background-color: #253333;
 }
 
 /* BODY */
 
 body {
-    background-color: rgb(99, 97, 97);
+    background-color: #253333;
 }
 
 main {
@@ -69,6 +70,7 @@ main p{
 
 .container {
     display: flex;
+    margin: 40px 0;
 }
 
 .info {
@@ -79,6 +81,7 @@ main p{
 .ilustra {
     width: 50%;
     padding: 10px;
+    margin: auto 0px;
 }
 
 .ilustra img{
@@ -88,11 +91,27 @@ main p{
 main img{
 }
 
+#exp, #ref {
+    margin-top: 40px;
+}
+
+#ref {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
 /* FOOTER */
+
+div a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
 
 footer {
     height: 150px;
-    background-color:rgb(37, 51, 51);
+    background-color:#042326;
     line-height: 50px;
     color: white;
     text-align: center;
